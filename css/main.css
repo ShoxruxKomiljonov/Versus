@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../img/IMAGE\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 40px 0;
+}
+
+.title h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  color: #FFFFFF;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.item-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height, or 155% */
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #00D6B4;
+}
+
+.hero h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  /* or 110% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero {
+  padding: 50px 0;
+}
+
+.hero h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height, or 146% */
+  margin-top: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00D6B4;
+}
+
+.hero a {
+  border: 1px solid #00D6B4;
+  padding: 15px 26px;
+  text-decoration: none;
+  color: #00D6B4;
+}
+
+.heroo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.imgg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.iimg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tittle {
+  padding: 50px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.site-section {
+  background: #222222;
+}
+
+.site-footer {
+  background-color: #222222;
+  padding: 60px 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer h1 {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #C2C2C2;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  color: #999999;
+}/*# sourceMappingURL=main.css.map */
